@@ -1,0 +1,10 @@
+@media all and (max-width:700px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media all and (min-width:1000px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,124 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color: #F7F7F7;
+    z-index: 100;
+    background-color: white;
+    
+    
+}
+.left-top{
+     
+     display: flex;
+     align-items: center;
+     
+}
+.middle-top{
+    flex: 2;
+    margin-left: 70px;
+    margin-right: 70px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.right-top{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.hamburger-menu{
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.youtube-logo{
+    height: 30px;
+}
+.search-bar{
+    flex: 1;
+    height: 37px;
+    font-size: 1.2rem;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    border-right: none;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    padding:15px 15px;
+    font-size: 1rem;
+}
+.search-btn{
+    height: 40px;
+    width: 40px;
+    background-color: #F7F7F7;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-left: -2;
+    
+
+}
+
+.voice-search-btn{
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #F7F7F7;
+    
+}
+
+
+.search-icon{
+    height:30px;
+    margin-top: 5px;
+    
+}
+
+.voice-search-icon{
+    height: 28px;
+    margin-top: 5px;
+}
+.upload-icon{
+    height: 30px;
+    cursor: pointer;
+}
+
+.yt-app-icon{
+    height: 30px;
+}
+.notifications-icon{
+    padding-top: 10px;
+    height: 30px;
+}
+.notification-alert{
+    position: relative;
+}
+.alert{
+    position: absolute;
+    background-color: rgb(180, 0, 0);
+    color: white;
+    top: 5px;
+    right: -2px;
+    font-size: 14px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 10px;
+}
+.profile{
+    height: 30px;
+    border-radius: 15px;
+}

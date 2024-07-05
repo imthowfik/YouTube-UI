@@ -1,0 +1,57 @@
+.video-content{
+    margin-left: 35px;
+    margin-top: 95px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.thumbanail img{
+    width:300px;
+}
+.thumbanail{
+    margin-bottom: 13px;
+    position: relative;
+}
+.video-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    right: 15px;
+    bottom: 10px;
+}
+.channel-picutre{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.video-info{
+    display: inline-block;
+    width: 250px;
+}
+.video-title{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.video-author{
+    color: gray;
+}
+.video-stats{
+    margin-top: 0;
+    color: gray;
+    font-size: 1rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
